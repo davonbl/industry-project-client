@@ -76,7 +76,7 @@ const Header = () => {
                         <li className="header-top__click header-top__click--wide">What We Do</li>
                         <li className="header-top__click">Portfolio</li>
                         <li className="header-top__click">Reports</li>
-                        <li className="header-top__click">News</li>
+                        <li className="header-top__click header-top__click-border">News</li>
                     </ul>
                 </div>
                 <div className="header-top__search-form">

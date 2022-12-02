@@ -6,12 +6,10 @@
     &__banner{
         background-color:black; 
         height: 41px;
-        @include tablet{
-            display: flex; 
-            justify-content: space-between;
-            padding-left: 45px;
-            padding-right: 45px;
-        }
+        display: flex; 
+        justify-content: space-between;
+        padding-left: 45px;
+        padding-right: 45px;
     }
 
     &__banner--img{
@@ -19,12 +17,13 @@
     }
 
     &__banner-left--img{
-        padding-top: 8px;
+        // padding-top: 8px;
         width: 12%;
         border-right:1px solid white; 
         height: 19px;
         margin-right: 6px;
         padding-right: 6px;
+        margin-top: 9px;
 
     }
 
@@ -143,6 +142,7 @@
             justify-content: space-between;
             padding-left: 45px;
             padding-right: 45px;
+            border: 0.5px solid black;
             // background-color: rgb(240, 240, 240);
     }
     
@@ -150,32 +150,43 @@
 
             display: flex;
             margin:0; 
-            width:92%
+            // width:92%
     }
 
     &__click{
             list-style: none;
             text-decoration: none;
-            width: 24%;
+            // width: 24%;
             // color: rgb(51,51,51); 
             font-size:16px;
             color: #333;
             // font-family: "Helvetica Neue";
             font-weight:bold; 
             // border-left: 1px solid black;
-            border: 1px solid black;
+            border-left: .5px solid black;
             height: 37px;
+            width: 25%;
+            text-align: center;
 
     }
 
-    &__center{
+    &__search-input{
             // width:100%;
+            width: 72px;
 
     }
 
-&__click-wide{
-    width: 39%;
-}
+    &__click-wide{
+        width: 39%;
+    }
+
+    &__click-border{
+        border-right: .5px solid black; 
+    }
+
+    &__toc-center{
+        width:100%;
+    }
 
 
     
