@@ -1,0 +1,22 @@
+.basket { 
+    &__container{
+        border-bottom: 2px solid black;
+    }
+    &__card{
+        margin: 2rem;
+        background-color: grey;
+        border-radius: 10px;
+        width: 20rem;
+        padding: 2rem;
+    }
+
+    &__label-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__adjusted{
+
+    }
+
+}

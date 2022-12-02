@@ -1,0 +1,14 @@
+.base-basket { 
+    &__container{
+        border-bottom: 2px solid black;
+    }
+    &__card{
+        padding: 2rem;
+        margin: 2rem;
+        background-color: grey;
+        border-radius: 10px;
+        width: 15rem;
+    }
+
+
+}

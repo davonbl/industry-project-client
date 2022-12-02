@@ -1,0 +1,22 @@
+.home {
+
+    &__button{
+
+        &--container{
+            display: flex;
+        }
+        &--map{
+            flex: 1;
+        }
+        &--zipcode{
+            flex: 1;
+            height: 3rem;
+        }
+    }
+
+    &__card-container{
+        display: flex;
+        justify-content: center;
+        
+    }
+}
