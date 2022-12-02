@@ -1,0 +1,43 @@
+.industry-app{
+    display:flex;
+    flex-direction: column;
+    
+    &__form{
+        display:flex;
+        flex-direction:column;
+        // padding: 0.5rem 1rem;
+        // border: solid #BDC5D5 0.1rem;
+        // border-radius: 1.25rem;
+    }
+
+    &__input{
+        padding: 0.5rem 1rem;
+        border: solid #BDC5D5 0.1rem;
+        border-radius: 1.25rem;
+    }
+
+}
+
+
+
+// &__subheading, &__label{
+//     text-align: left;
+// }
+
+// &__form-item{
+//     display:flex;
+//     flex-direction: column;
+//     margin-bottom: 1rem;
+// }
+
+// &__input, &__scrolling{
+//     padding: 0.5rem 1rem;
+//     border: solid #BDC5D5 0.1rem;
+//     border-radius: 1.25rem;
+// }
+
+// &__label{
+//     font-size: 0.8125rem;
+//     font-weight: bold;
+//     margin-bottom: 0.5rem;
+// }
