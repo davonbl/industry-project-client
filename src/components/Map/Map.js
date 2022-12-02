@@ -1,4 +1,6 @@
-function Map (){
+import './Map.scss'
+
+function Map ({onMap}){
 
     return (
         <div>

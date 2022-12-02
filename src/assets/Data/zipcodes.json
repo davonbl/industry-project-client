@@ -1,0 +1,34 @@
+[
+    {
+        "id": "1",
+        "zipcode": "10035",
+        "housing": "1900",
+        "transportation": "500",
+        "food": "300",
+        "healthcare": "890"
+    },
+    {
+        "id": "2",
+        "zipcode": "10036",
+        "housing": "3000",
+        "transportation": "378",
+        "food": "701",
+        "healthcare": "1167"
+    },
+    {
+        "id": "3",
+        "zipcode": "10001",
+        "housing": "2283",
+        "transportation": "378",
+        "food": "701",
+        "healthcare": "1167"
+    },
+    {
+        "id": "4",
+        "zipcode": "10005",
+        "housing": "2283",
+        "transportation": "378",
+        "food": "701",
+        "healthcare": "1167"
+    }
+]
