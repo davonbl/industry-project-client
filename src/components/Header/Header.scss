@@ -6,12 +6,10 @@
     &__banner{
         background-color:black; 
         height: 41px;
-        @include tablet{
-            display: flex; 
-            justify-content: space-between;
-            padding-left: 45px;
-            padding-right: 45px;
-        }
+        display: flex; 
+        justify-content: space-between;
+        padding-left: 45px;
+        padding-right: 45px;
     }
 
     &__banner--img{
@@ -156,7 +154,7 @@
     &__click{
             list-style: none;
             text-decoration: none;
-            width: 24%;
+            // width: 24%;
             // color: rgb(51,51,51); 
             font-size:16px;
             color: #333;
