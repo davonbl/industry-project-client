@@ -167,7 +167,11 @@
             height: 37px;
             width: 25%;
             text-align: center;
+    }
 
+    &__click:hover{
+        cursor:pointer; 
+        background-color: #68ade6; 
     }
 
     &__search-input{
@@ -186,6 +190,12 @@
 
     &__toc-center{
         width:100%;
+    }
+
+    &__toc-left:hover{
+        cursor:pointer; 
+        background-color: #68ade6; 
+        // width:5px; 
     }
 
 
