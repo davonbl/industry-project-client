@@ -1,0 +1,28 @@
+.footer{
+    padding: 2rem;
+    display: flex;
+    background-color: black;
+    &__links-container{
+        display: flex;
+        flex-direction: column;
+        width: 50rem;
+    }
+    &__links{
+        color: white;
+    }
+    &__copyright{
+        color:white;
+    }
+
+    &__search-container{
+        display:flex;
+    }
+
+    &__search{
+        height: 2rem;
+    }
+}
+
+.nyc-logo{
+    height: 2rem;
+}
