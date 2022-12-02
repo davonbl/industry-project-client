@@ -23,8 +23,8 @@ function HomePage() {
     return (
         <div className="home">
             <div className="home__button--container">
-                <button onClick={handleClick} className="home__button--map" value="map">Map</button>
-                <button onClick={handleClick} className="home__button--zipcode" value="zipcode">By Zipcode</button>
+                <button onClick={handleClick} className="home__button--map" value="map">MAP</button>
+                <button onClick={handleClick} className="home__button--zipcode" value="zipcode">BY ZIPCODE</button>
             </div>
 
             <div className={onMap? "empty" : "home__card-container"}>

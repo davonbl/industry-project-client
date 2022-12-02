@@ -21,7 +21,7 @@ function Footer() {
                 </div>
                 <p className="footer__copyright">City of New York. 2022 All Rights Reserved,NYC is a trademark and service mark of the City of New York
                 </p>
-                <p className="footer__copyright"><b>Privay Policy. Terms of Use.</b></p>
+                <p className="footer__copyright"><b>Privacy Policy. Terms of Use.</b></p>
             </div>
         </div>
     )
