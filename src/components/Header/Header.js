@@ -30,15 +30,15 @@ const Header = () => {
                 </div>
 
                 <div className="header-top__center">
-                    <div className="header-top__left-side">
+                    {/* <div className="header-top__left-side">
                         <img className='header-top__left-side--img' src={burgerMenu}/>
-                    </div>
+                    </div> */}
                     <div className="header-top__center">
                         <img className='header-top__center--img' src={nycIcon}/>
                     </div>
-                    <div className="header-top__right-side">
+                    {/* <div className="header-top__right-side">
                         <img className='header-top__right-side--img' src={glassSearch}/>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className="header-top__far-right">
@@ -69,7 +69,7 @@ const Header = () => {
                 <div className="header-top__toc-left">
                     <img className="header-top__toc-image" src={homeButton}/>
                 </div>
-                <div className="header-top__center">
+                <div className="header-top__toc-center">
                     <ul className= "header-top__list">
                         <li className="header-top__click">About</li>
                         <li className="header-top__click header-top__click--wide">Poverty in NYC</li>

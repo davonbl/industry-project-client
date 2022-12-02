@@ -29,20 +29,13 @@
     }
 
     &__banner-left--text{
-        display:none;
-        @include tablet{
             display: contents;
             color:white; 
-        }
     }
 
     &__banner-right{
-        display:none;
-
-        @include tablet{
             display: flex;
             color:white; 
-        }
     }
 
     &__banner-right, &__banner
@@ -77,12 +70,10 @@
     }
 
     &__center--img{
-        width: 150px;
-        @include tablet{
+        // width: 150px;
             padding-top: 0;
             margin-top: -5px;
             width: 278px;
-        }
     }
 
     // &__far-left{
@@ -90,39 +81,35 @@
     // }
 
     &__far-right{
-        display:none; 
-        @include tablet{
             padding-top: 17px; 
             display: flex;
-        }
     }
 
-    &__left-side, &__right-side{
-        padding-top: 14px;
-        // width: 1rem;
-    }
+    // &__left-side, &__right-side{
+    //     padding-top: 14px;
+    // }
 
-    &__left-side{
-        padding-left: 10px;
-        padding-top: 12px;
+    // &__left-side{
+    //     padding-left: 10px;
+    //     padding-top: 12px;
 
-        @include tablet{
-            display:none; 
-        }
+    //     @include tablet{
+    //         display:none; 
+    //     }
 
-    }
+    // }
 
-    &__right-side{
-        padding-right: 10px;
+    // &__right-side{
+    //     padding-right: 10px;
 
-        @include tablet{
-            display:none; 
-        }
-    }
+    //     @include tablet{
+    //         display:none; 
+    //     }
+    // }
 
-    &__left-side--img, &__right-side--img{
-        width: 1rem;
-    }
+    // &__left-side--img, &__right-side--img{
+    //     width: 1rem;
+    // }
 
 
     &__scrolling{
@@ -138,18 +125,13 @@
     }
 
     &__far-left--text{
-        @include tablet{
             width: 140%;
             text-align: left;
-        }
     }
 
     &__far-left{
-        display:none; 
-        @include tablet{
             display:initial; 
             width:23%;
-        } 
     }
 
     &__word-size{
@@ -157,26 +139,21 @@
     }
 
     &__toc{
-        display:none;
-        @include tablet{
             display:flex;
             justify-content: space-between;
             padding-left: 45px;
             padding-right: 45px;
-        }
+            // background-color: rgb(240, 240, 240);
     }
     
     &__list{
 
-        @include tablet{
             display: flex;
             margin:0; 
             width:92%
-        }
     }
 
     &__click{
-        @include tablet{
             list-style: none;
             text-decoration: none;
             width: 24%;
@@ -185,16 +162,14 @@
             color: #333;
             // font-family: "Helvetica Neue";
             font-weight:bold; 
-            border-left: 1px solid black;
-            height: 32px;
-        }
+            // border-left: 1px solid black;
+            border: 1px solid black;
+            height: 37px;
 
     }
 
     &__center{
-        @include tablet{
-            width:100%;
-        }
+            // width:100%;
 
     }
 
