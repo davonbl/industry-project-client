@@ -1,11 +1,19 @@
 .ziplist{
     margin: 2rem;
     width: 15rem;
-    background: lightskyblue;
+    background: white;
+    border: 1px solid lightgrey;
     padding: 2rem;
     border-radius: 10px;
+    overflow-y: scroll;
+    height: 30rem;
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
 .title-header{
     border-bottom: 2px solid black;
+}
+
+.--rm{
+    margin: 0;
 }

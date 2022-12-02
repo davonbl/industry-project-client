@@ -32,14 +32,9 @@ function BaseBasketCard({ }) {
                 <h3>Health Care: ${baseJson[0].healthcare}</h3>
                 <p className="basket__adjusted"></p>
             </div>
-            <div className="basket__label-container">
-                <h3>Child Care: ${baseJson[0].childcare}</h3>
-                <p className="basket__adjusted"></p>
-
-            </div>
             </div>
             <div>
-                <h2>Total: ${Number(baseJson[0].housing) + Number(baseJson[0].food) + Number(baseJson[0].transportation) + Number(baseJson[0].healthcare)}</h2>
+                <h2 className="basket__total">Total: ${Number(baseJson[0].housing) + Number(baseJson[0].food) + Number(baseJson[0].transportation) + Number(baseJson[0].healthcare)}</h2>
             </div>
 
         </div>

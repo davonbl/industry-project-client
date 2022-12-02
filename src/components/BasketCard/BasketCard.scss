@@ -3,20 +3,34 @@
         border-bottom: 2px solid black;
     }
     &__card{
+        border: 1px solid lightgrey;
         margin: 2rem;
-        background-color: grey;
         border-radius: 10px;
         width: 20rem;
         padding: 2rem;
+        box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
     }
 
     &__label-container{
         display: flex;
         justify-content: space-between;
     }
-
-    &__adjusted{
-
+    &__adjusted {
+        font-weight: 400;
     }
 
+
+}
+
+.red {
+    color:red;
+}
+
+.green{
+    color: green;
+}
+
+h3{
+    color: #495057;
+    font-weight: 500;
 }
