@@ -27,25 +27,25 @@ function BasketCard({ clickedZip }) {
                     </div>
                     <div className="basket__label-container">
                         <h3>Housing: ${clickedZip.housing}</h3>
-                        <p className={calculatePercentage(baseJson[0].housing, housing)[0] == '-' ? '"basket__adjusted red' : ' "basket__adjusted green'}>{calculatePercentage(baseJson[0].housing, housing)}</p>
+                        <p className={calculatePercentage(baseJson[0].housing, housing)[0] == '-' ? '"basket__adjusted green' : ' "basket__adjusted red'}>{calculatePercentage(baseJson[0].housing, housing)}</p>
                     </div>
                     <div className="basket__label-container">
                         <h3>Grocery/Food: ${clickedZip.food} </h3>
-                        <p className={calculatePercentage(baseJson[0].food, food)[0] == '-' ? '"basket__adjusted red' : ' "basket__adjusted green'}>{calculatePercentage(baseJson[0].food, food)}</p>
+                        <p className={calculatePercentage(baseJson[0].food, food)[0] == '-' ? '"basket__adjusted green' : ' "basket__adjusted red'}>{calculatePercentage(baseJson[0].food, food)}</p>
                     </div>
                     <div className="basket__label-container">
                         <h3>Transportation: ${clickedZip.transportation}</h3>
-                        <p className={calculatePercentage(baseJson[0].transportation, transportation)[0] == '-' ? '"basket__adjusted red' : ' "basket__adjusted green'}>{calculatePercentage(baseJson[0].transportation, transportation)}</p>
+                        <p className={calculatePercentage(baseJson[0].transportation, transportation)[0] == '-' ? '"basket__adjusted green' : ' "basket__adjusted red'}>{calculatePercentage(baseJson[0].transportation, transportation)}</p>
                     </div>
                     <div className="basket__label-container">
                         <h3>Health Care: ${clickedZip.healthcare}</h3>
-                        <p className={calculatePercentage(baseJson[0].healthcare, healthcare)[0] == '-' ? '"basket__adjusted red' : ' "basket__adjusted green'}>{calculatePercentage(baseJson[0].healthcare, healthcare)}</p>
+                        <p className={calculatePercentage(baseJson[0].healthcare, healthcare)[0] == '-' ? '"basket__adjusted green' : ' "basket__adjusted red'}>{calculatePercentage(baseJson[0].healthcare, healthcare)}</p>
                     </div>
 
                 </div>
                 <div className="basket__label-container">
                     <h2 className="basket__total">Total: ${zipTotal} </h2>
-                    <p className={calculatePercentage(totalBase, zipTotal)[0] == '-' ? '"basket__adjusted red' : ' "basket__adjusted green'}>{calculatePercentage(totalBase, zipTotal)}</p>
+                    <p className={calculatePercentage(totalBase, zipTotal)[0] == '-' ? '"basket__adjusted green' : ' "basket__adjusted red'}>{calculatePercentage(totalBase, zipTotal)}</p>
                 </div>
 
             </div>
