@@ -6,7 +6,7 @@ import { useState } from 'react';
 import jsonData from '../assets/Data/zipcodes.json';
 import { ZipList } from '../components/ZipList/ZipList';
 function HomePage() {
-    const [onMap, setOnMap] = useState(false)
+    const [onMap, setOnMap] = useState(true)
     const [clickedZip, setClickedZip] = useState([])
     const handleClick = (e) => {
         if (e.target.value === "map") {

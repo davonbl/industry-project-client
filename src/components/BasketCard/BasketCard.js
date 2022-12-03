@@ -45,7 +45,7 @@ function BasketCard({ clickedZip }) {
                 </div>
                 <div className="basket__label-container">
                     <h2 className="basket__total">Total: ${zipTotal} </h2>
-                    <p className={calculatePercentage(totalBase, zipTotal)[0] == '-' ? '"basket__adjusted red' : ' "basket__adjusted green'}>{calculatePercentage(totalBase, zipTotal)}</p>
+                    <p className={calculatePercentage(totalBase, zipTotal)[0] == '-' ? '"basket__adjusted green' : ' "basket__adjusted red'}>{calculatePercentage(totalBase, zipTotal)}</p>
                 </div>
 
             </div>

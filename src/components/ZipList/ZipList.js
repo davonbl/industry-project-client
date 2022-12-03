@@ -4,11 +4,8 @@ import { useState } from 'react';
 
 function ZipList({jsonData, handleZipClick, clickedZip}) {
 
-    const [zipCodes, setZipCodes] = useState([])
     const [search, setSearch] = useState('')
     const handleInput = (e) => {
-        // console.log(jsonData[0].zipcode)
-        // console.log(e.target.value)
         setSearch(e.target.value)
     }
     return (
